@@ -65,6 +65,7 @@ nav {
   }
 
   /* Carousel Styling */
+
   .img-carousel {
     position: relative;
     width: 100vw;
@@ -360,10 +361,6 @@ nav ul li:not(:nth-child(4)) {
   margin-left: 1em;
 }
 
-.content.love {
-}
-
-
 .content.love a {
   margin-top: 15em;
   margin-right: 9.5em;
@@ -404,7 +401,7 @@ nav ul li:not(:nth-child(4)) {
 
   .content.formal a {
     margin-top: 0;
-    margin-right: 4em;
+    margin-right: 5em;
   }
 
   .content.love a {
@@ -413,6 +410,7 @@ nav ul li:not(:nth-child(4)) {
   }
 
   /* Arrows Styling */
+
   span.next-btn {
     right: 5%
   }
