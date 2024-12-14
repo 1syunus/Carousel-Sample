@@ -14,32 +14,46 @@
     </head>
 
     <body>
+        <!-- navbar styling -->
         <nav>
             <ul>
-                <li><a href="#">All</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Luxury</a></li>
-                <li><h1>Exotic</h1></li>
-                <li><a href="#">Brands</a></li>
-                <li><a href="#">Forever</a></li>
-                <li><a href="#">Contact Us</a></li>
+                <li><a href="#"
+                    aria-label="All collections">All</a></li>
+                <li><a href="#"
+                    aria-label="About Company">About</a></li>
+                <li><a href="#"
+                    aria-label="Luxury aesthetic">Luxury</a></li>
+                <li><h1
+                    aria-label="Exotic aesthetic">Exotic</h1></li>
+                <li><a href="#"
+                    aria-label="Collections by brand">Brands</a></li>
+                <li><a href="#"
+                    aria-label="Retro aesthetic">Forever</a></li>
+                <li><a href="#"
+                    aria-label="Contact information">Contact Us</a></li>
             </ul>
         </nav>
+
         <main>
+            <!-- carousel container -->
             <section class="img-carousel">
                 <ul class="images">
                     <li>
+                        <!-- carousel item 1 -->
                         <div class="image">
                             <img src="images/barbary-coast.jpg"
                                 alt="man in wide, black turban 
                                 wearing blue tunic with gold patter">                            
                         </div>
+                        
                         <div class="content cover">
                             <h2>The Barbary Coast<br> 
                                 <span>Autumn<span></h2>
-                            <a href="#">View Gallery</a>
+                            <a href="#">View Gallery</a> <!-- no need for aria on obv links -->
                         </div>
                     </li>
+
+                    <!-- carousel item 2 -->
                     <li>
                         <div class="image accessories">
                             <img src="images/accessories.jpg"
@@ -51,6 +65,8 @@
                             <a href="#">View Gallery</a>
                         </div>
                     </li>
+
+                    <!-- carousel item 3 -->
                     <li>
                         <div class="image formal">
                             <img src="images/formal-wear.jpg"
@@ -63,6 +79,8 @@
                             <a href="#">View Gallery</a>
                         </div>
                     </li>
+
+                    <!-- carousel item 4 -->
                     <li>
                         <div class="image">
                             <img src="images/summer-wear.jpg" 
@@ -75,6 +93,8 @@
                             <a href="#">View Gallery</a>
                         </div>
                     </li>
+
+                    <!-- carousel item 5 -->
                     <li>
                         <div class="image outdoors">
                             <img src="images/active-wear.jpg"
@@ -87,10 +107,19 @@
                     </li>
                 </ul>
             </section>
+
+            <!-- nav arrows -->
             <section class="nav-arrows">
-                <span class="next-btn">&#10095;</span>
-                <span class="prev-btn">&#10094;</span>
-            </section>
+                
+                <span class="next-btn" tabindex="0" 
+                    aria-label="next">&#10095;</span> 
+
+                            <!-- tabindex to make keyboard focusable -->
+
+                <span class="prev-btn" tabindex="0" 
+                    aria-label="previous">&#10094;</span>
+            </section> 
+
         </main>
         <script src="index.js" defer></script>
     </body>

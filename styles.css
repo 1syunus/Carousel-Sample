@@ -17,6 +17,10 @@ body {
 	color: #000;
 }
 
+a:focus {
+  outline: 2px solid coral;
+}
+
  /* Nav Styling */
 
 nav {
@@ -267,6 +271,10 @@ span.prev-btn {
 span.next-btn:hover, span.prev-btn:hover {
   color: coral;
   opacity: 1;
+}
+
+span.next-btn:focus, span.prev-btn:focus {
+  outline: solid 2px coral;
 }
 
 @media (min-width: 768px) {
