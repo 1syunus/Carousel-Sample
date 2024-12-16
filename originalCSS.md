@@ -5,7 +5,7 @@
 * {
 	box-sizing: border-box;
 }
-html {
+html { <!--Removed vendor prefixes throughout. Modern codebases don't need them -->
   font-size: -moz-calc(4px + 0.45vw);
   font-size: -webkit-calc(4px + 0.45vw);
 	font-size: calc(4px + 0.45vw);
